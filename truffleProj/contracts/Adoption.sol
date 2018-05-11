@@ -2,6 +2,10 @@ pragma experimental ABIEncoderV2;
 
 contract Adoption {
 
+    constructor(){
+        astronautRankDna['captain'] = 0x0958baae01ad2a24456dbeee99070fcafbe288625e8d529c4aa190f95c2bcd31;
+    }
+
     struct Astronaut {
         string rank;
         uint dna;
